@@ -17,18 +17,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+#title                    : "Site Title"
+title                    : "Hognod"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+#subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Documents"
 name                     : "Your Name"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
+#repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hognod/hognod.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+#breadcrumbs              : # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -67,7 +72,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+#  hide                   : # true, false (default)
+  hide                   : true
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -150,6 +156,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
+      url: "https://github.com/hognod"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
