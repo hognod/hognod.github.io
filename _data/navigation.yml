@@ -1,12 +1,27 @@
-# main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+## main links
+#main:
+#  - title: "Quick-Start Guide"
+#    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#  # - title: "About"
+#  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+#  # - title: "Sample Posts"
+#  #   url: /year-archive/
+#  # - title: "Sample Collections"
+#  #   url: /collection-archive/
+#  # - title: "Sitemap"
+#  #   url: /sitemap/
+
+sidebar-category:
+  - title: Blog
+    children:
+      - title: "Github Blog"
+        url: "/github-blog"
+        category: "github-blog"
+  - title: HashiCorp
+    children:
+      - title: "Terraform"
+        url: "/terraform"
+        category: "terraform"
+      - title: "Vault"
+        url: "/vault"
+        category: "vault"
